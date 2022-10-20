@@ -1,0 +1,204 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: Poppins;
+}
+nav{
+  background: #ffffff;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  padding: 0 100px;
+  width: 10%;
+  font-size: 32pt;
+  }
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #010400;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #FF3C38;
+  color: #ffffff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#div1{
+  padding:20px;
+  float:left;
+  height: 500px;
+  width: 35%;
+}
+#div2{
+  padding: 60px 50px 50px 50px;
+  float:left;
+  height: 500px;
+  width: 65%;
+}
+#about-img{
+  height: 100%;
+  width: 90%;
+  padding: 50px 50px 50px 50px;
+}
+form{
+  text-align:left;
+  margin-top:0;
+}
+.submit{
+  background-color:#FF3C38;
+  padding:15px 45px;
+  border-radius:5px;
+  cursor:pointer;
+  color:#ffffff;
+  border:none;
+  outline:none;
+  font-weight:bold;
+}
+.submit:hover{
+  background-color:#898980;
+}
+textarea{
+  height:100px;
+}
+input, textarea{
+  margin-bottom:10px;
+  font-size:11pt;
+  padding:15px 10px 10px;
+  border: 1px solid#cecece;
+  background-color:#efefef;
+  color:#787575;
+  border-radius:5px;
+  width:90%;
+  outline: none;
+}
+#project-1{
+    width: 32%;
+    float: left;
+    vertical-align: middle;
+}
+#project-2{
+  width: 33%;
+  float: left;
+  vertical-align: middle;
+}
+#project-3{
+    width: 32%;
+    float: left;
+    vertical-align: middle;
+}
+.project-text-heading{
+  text-align: center;
+  padding: 0px 0px 10px 0px;
+}
+.HTML-logo{
+  padding: 50px 70px;
+}
+.container {
+  background-color: rgb(192, 192, 192);
+  width: 80%;
+      border-radius: 15px;
+}
+
+.skill {
+  background-color: rgb(116, 194, 92);
+  color: white;
+  padding: 1%;
+  text-align: right;
+  font-size: 20px;
+      border-radius: 15px;
+}
+.html {
+  width: 80%;
+  padding: 1%;
+  background-color: #FF3C38;
+}
+.javascript {
+  width: 30%;
+  padding: 1%;
+  background-color: #087E8B;
+}
+.css{
+  width: 50%;
+  padding: 1%;
+  background-color: #827081;
+}
+.python{
+  width: 40%;
+  padding: 1%;
+  background-color: #61912C;
+}
+.image-logo{
+  height:120px;
+  width: 120px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-5 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: #FF3C38;
+background: #FF3C38 ;
+}
+.btn-5:hover {
+  color: #FF3C38;
+  background: transparent;
+   box-shadow:none;
+   border: 2px solid #FF3C38;
+   border-radius: 3px;
+}
+.btn-div {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 0px 0px 65px;
+}
+#coming-soon-img{
+  width: 50%;
+  height: 90%;
+}
+.coming-soon{
+  padding-left: 430px;
+}
